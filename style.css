@@ -1,0 +1,63 @@
+.canvas{
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 500px;
+}
+
+.canvas_jpg{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-select: none;
+    border: 10px dotted yellowgreen;
+}
+
+#canvasContainer{
+    margin-top: 10px;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title{
+    text-align: center;
+    font-style: italic;
+    font-size: xxx-large;
+    font-weight: bold;
+    color: darkslategray;
+}
+#container{
+    background-color: lightgoldenrodyellow;
+}
+.flower_emoji{
+    font-size:50px;
+}
+
+
+#items_container{
+    text-align: center;
+    font-weight: bold;
+    color: darkslategray;
+}
+#restart{
+    width:550px;
+    height:40px;
+    background-color:yellowgreen ;
+    color: white;
+    font-weight: bold ;
+    border: 4px solid lightgreen;
+    text-align: center;
+    border-radius:60px;
+}
+.want_to_be_center{
+    position: center;
+    text-align: center;
+}
